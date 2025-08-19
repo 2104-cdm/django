@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background: #b93939;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 80%; 
+}
+
+.aside {
+    width: 20%;
+    height: 100%; 
+    background: #b0b0b0;
+}
+
+.main {
+    width: 80%;
+    height: 100%; 
+    background: #d0d0d0;
+}

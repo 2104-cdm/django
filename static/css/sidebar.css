@@ -1,0 +1,25 @@
+.sidebar {
+    width: 20%;
+    height: 100%;
+    background: #b0b0b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-btn {
+    width: 80%;
+    height: 12%;
+    margin: 3% 0;
+    background: #b93939;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.sidebar-btn:hover {
+    background: #8c2828;   }

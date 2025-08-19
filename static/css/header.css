@@ -1,0 +1,23 @@
+h1 {
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.nav {
+    display: flex;
+    gap: 2em;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.nav a:hover {
+    background: #8c2828;
+}
