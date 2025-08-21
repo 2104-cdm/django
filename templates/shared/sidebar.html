@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="{% static 'css/sidebar.css' %}">
     {% endblock %}
 </head>
+<body>
     <div class="sidebar">
-        <button class="sidebar-btn">Botón 1</button>
-        <button class="sidebar-btn">Botón 2</button>
-        <button class="sidebar-btn">Botón 3</button>
-        <button class="sidebar-btn">Botón 4</button>
-    <div/>
+        <ul class="productos-lista">
+            {% for producto in productos %}
+               <li class="producto-item">
+    <span class="producto-nombre">{{ producto.nombre }}</span>
+    <span class="producto-precio">${{ producto.precio }}</span>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

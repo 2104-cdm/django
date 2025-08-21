@@ -82,10 +82,19 @@ DATABASES = {
         'NAME': 'django',
         'USER': 'postgres',
         'PASSWORD': '060518',
-        'HOST': 'localhost',
+        'HOST': 'https://jdlmtgagkdmsjrasqqvy.supabase.co',
         'PORT': '5432',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'tienda',
+#         'CLIENT': {
+#             'host' : 'mongodb+srv://josedb:jose12345A@cluster0.7uiw2ud.mongodb.net/ferreteria'
+#         }
+#     }
+# }
 
 
 # Password validation
